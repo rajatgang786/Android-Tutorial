@@ -12,21 +12,20 @@
         android:id="@+id/fragment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fragment 1 "
         android:onClick="changeFragment"
-        />
+        android:text="Fragment 1 " />
 
     <Button
         android:id="@+id/fragment2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fragment 2"
-        android:onClick="changeFragment"/>
+        android:onClick="changeFragment"
+        android:text="Fragment 2" />
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fragmentplace"
-        android:name="com.example.boss.fragment.FragmentOne"
+        android:name="com.example.boss.fragment.FragmentTwo"
         ></fragment>
 </LinearLayout>
