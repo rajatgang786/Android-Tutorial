@@ -2,30 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Webcheck"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.boss.webview.MainActivity"
-    android:weightSum="1">
+    tools:context="com.example.boss.fragment.MainActivity">
+
 
     <Button
-        android:id="@+id/btnwebcheck"
+        android:id="@+id/fragment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click To Open URL" />
+        android:text="Fragment 1 "
+        android:onClick="changeFragment"
+        />
 
-    <EditText
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/fragment2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="https://WWW.Google.com" />
+        android:text="Fragment 2"
+        android:onClick="changeFragment"/>
 
-    <WebView
-        android:id="@+id/webcheck"
+    <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="15dp" />
+        android:id="@+id/fragmentplace"
+        android:name="com.example.boss.fragment.FragmentOne"
+        ></fragment>
 </LinearLayout>
