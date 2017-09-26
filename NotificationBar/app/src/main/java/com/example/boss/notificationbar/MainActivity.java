@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
                 notification.flags = Notification.FLAG_AUTO_CANCEL;
                 NotificationManager nm = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
-                nm.notify(0,notification);
+                nm.notify(0,notification
+                );
             }
         });
     }

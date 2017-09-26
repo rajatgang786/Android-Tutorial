@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204050322664",
+    "project_id": "myapp-181018"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204050322664:android:88ad077f40acf1bd",
+        "android_client_info": {
+          "package_name": "com.example.rajat.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204050322664-7lg67ik200q6a60pe0fs1ral6vdrli3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajat.myapplication",
+            "certificate_hash": "052ff1a58eff71b8bb01c34a123d57a37266478f"
+          }
+        },
+        {
+          "client_id": "204050322664-sarj7tv9to9jh1k5im5csgnr2osbqrit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrZnPj_nU3iQvAnIq0Rldo3q4sJZei0yU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
